@@ -656,7 +656,7 @@ namespace Win32
 		[DllImport("user32")] public static extern int GetClassName(HWND hwnd, StringBuilder lpClassName, int nMaxCount);
 		[DllImport("user32")] public static extern int GetClassWord(HWND hwnd, int nIndex);
 		[DllImport("user32")] public static extern int GetClientRect(HWND hwnd, ref RECT lpRect);
-		[DllImport("user32")] public static extern int GetClipCursor(out RECT lprc);
+		[DllImport("user32")] public static extern int GetClipCursor(out RECT lprc); 
 		[DllImport("user32")] public static extern int GetClipboardData(int wFormat);
 		[DllImport("user32")] public static extern int GetClipboardFormatName(int wFormat, string lpString, int nMaxCount);
 		[DllImport("user32")] public static extern int GetClipboardOwner();
